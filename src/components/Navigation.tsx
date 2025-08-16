@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const spring = { type: 'spring', stiffness: 110, damping: 18 };
+// const spring = { type: 'spring', stiffness: 110, damping: 18 };
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
