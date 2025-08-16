@@ -28,7 +28,7 @@ const cardVariants = {
   }),
 };
 
-const particles = Array.from({ length: 15 }).map((_, i) => ({
+const particles = Array.from({ length: 15 }).map((_) => ({
   size: Math.random() * 60 + 20,
   left: Math.random() * 100 + '%',
   delay: Math.random() * 5,
