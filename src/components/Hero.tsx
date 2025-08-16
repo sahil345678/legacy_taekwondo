@@ -133,7 +133,7 @@ export default function Hero() {
 
         {/* Your rotating logo image */}
         <motion.img
-          src="/logoo/newLogo.png"
+          src="../../logoo/newLogo.png" // Adjust the path to your logo image
           alt="Legacy Taekwondo Logo"
           className="w-36 h-36 rounded-xl shadow-xl object-contain"
           animate={{ rotate: 360 }}
